@@ -1,0 +1,3 @@
+[submodule "anoninsight-sdk"]
+	path = anoninsight-sdk
+	url = https://github.com/RomarioKavin1/anoninsight-sdk.git
