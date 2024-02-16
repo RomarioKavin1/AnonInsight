@@ -1,3 +1,6 @@
 [submodule "anoninsight-sdk"]
 	path = anoninsight-sdk
 	url = https://github.com/RomarioKavin1/anoninsight-sdk.git
+[submodule "Circuit_breaker"]
+	path = Circuit_breaker
+	url = https://github.com/LeoFranklin015/Circuit_breaker.git
