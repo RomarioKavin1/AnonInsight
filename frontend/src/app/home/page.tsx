@@ -1,5 +1,6 @@
 'use client'
 import ConnectButton from '@/components/ConnectButton';
+import Link from 'next/link';
 import { redirect } from 'next/navigation';
 import React, { useEffect } from 'react'
 import { useAccountEffect } from 'wagmi';
@@ -34,7 +35,9 @@ function Page() {
                 <ConnectButton/>
                 </div>
                 <div>
-                    <button className='bg-slate-700 text-xl p-2 rounded-md'>Create a new survey</button>
+                    <Link   href='/createsurvey'>
+                    <button className='bg-slate-700 text-xl p-2 rounded-md hover:bg-slate-600'>Create a new survey</button>
+                    </Link>
                 </div>
             </div>
             {data.map((item, index) => (
