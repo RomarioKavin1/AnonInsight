@@ -48,7 +48,9 @@ function Page() {
                     <h2 className='text-xl'>Number of responses : <span className='text-white'>{item.numOfResponses}</span></h2>
                     </div>
                     <div>
-                    <button className='bg-slate-900 text-xl p-2 rounded-md mt-6'>View Responses</button>
+                    <Link href={`/viewform/${item.id}`}>
+                        <button className='bg-slate-900 text-xl p-2 rounded-md mt-6'>View Responses</button>
+                    </Link>
                     </div>
                 </div>
                 ))}
